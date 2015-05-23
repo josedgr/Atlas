@@ -15,15 +15,15 @@ function itemNuevo(){ //comprobando los checked y escribiendo los paises
 	var clave3=document.getElementById("pais3");
 	
 	if (clave1.checked)
-		zona_paises1.innerHTML="<div>Hola 1</div>";
+		zona_paises1.innerHTML="<div>Alemania</div>";
 		else
 		zona_paises1.innerHTML="";
 		if (clave2.checked)
-			zona_paises2.innerHTML="<div>Hola 2</div>";
+			zona_paises2.innerHTML="<div>España</div>";
 			else
 				zona_paises2.innerHTML="";
 				if (clave3.checked)
-					zona_paises3.innerHTML="<div>Hola 3</div>";
+					zona_paises3.innerHTML="<div>Italia</div>";
 					else
 					zona_paises3.innerHTML="";
 					
