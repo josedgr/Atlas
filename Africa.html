@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    	
+    	<meta charset="utf-8" />
+    	<meta name="viewport" content="width=device-width"/>
+    	<script src="js/index.js"></script>
+    	
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    </head>
+    
+    <body>
+        
+        <div data-role="page" id="pAfrica">
+        <div data-role="header" data-position="fixed">
+        		<h1>Africa</h1>
+        		
+        	</div>
+        	
+        	<div data-role="content">
+        						
+        		<ul data-role="listview">	<!-- Imagen Texto y check pagina 1-->
+        			
+        			<img src="img/Africa.png" />
+        			<br />
+        				<p>África es el tercer continente (después de Asia y América) más grande del mundo por extensión territorial. Limita al norte con el mar Mediterráneo, al oeste con el océano Atlántico, al sur con la conjunción de los océanos Atlántico e Índico y al este con el mar Rojo y el océano Índico. Posee una superficie total de 30 272 922 km² (621 600 en masa insular), que representa el 20,4 % del total terrestre. La población es de mil millones de habitantes, menos del 15 %. El continente se divide en 54 países, siendo todos ellos, miembros de la Unión Africana, con excepción de Marruecos.</p>
+        				
+        			 <fieldset data-role="controlgroup" data-type="vertical">
+      					<legend>Paises:</legend>
+					      <input id="pais1" name="pais1" type="checkbox">
+                            <label for="pais1">Marruecos</label>
+                            
+                          <input id="pais2" name="pais2" type="checkbox">
+                            <label for="pais2">Egipto</label>
+                          
+                          <input id="pais3" name="pais3" type="checkbox">
+                            <label for="pais3">Kenia</label>    	    
+				    </fieldset>
+        			
+        				
+        			      			
+        		</ul>	
+        						
+        						
+        						
+        	</div>
+        	
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			      <ul>
+			        <li>
+			          <a href="Index.html" data-icon="back">Atras</a> <!-- Al menu principal-->
+			        </li>
+			        <li>
+			          <a  href="#PaisesAf" data-role="button" id="btn_ver_paises" data-icon="forward">Continuar</a> <!-- Continuamos a la pagina 2-->
+			        </li>
+			      </ul>
+				</div>
+			</div>        	
+        </div>
+        
+        <div data-role="page" id="PaisesE">	<!-- Pagina 2-->
+        <div data-role="header" data-position="fixed">
+        		<h1>Africa</h1>
+        	</div>
+        	
+        	<div data-role="content" id="zona_paises1"></div>	<!-- Zonas para insertar los codigos-->
+        	<div data-role="content" id="zona_paises2"></div>		
+        	<div data-role="content" id="zona_paises3"></div>		
+        						
+        	
+        	
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			      <ul>
+			        <li>
+			          <a href="#pAfrica" data-icon="back">Atras</a> <!-- A la primera pagina -->
+			        </li>
+			        <li>
+			          
+			        </li>
+			      </ul>
+				</div>
+			</div>        	
+        </div>
+        
+    </body>
+</html>
