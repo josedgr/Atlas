@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    	
+    	<meta charset="utf-8" />
+    	<meta name="viewport" content="width=device-width"/>
+    	<script src="js/index.js"></script>
+    	
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    </head>
+    
+    <body>
+        
+        <div data-role="page" id="pAmerica">
+        <div data-role="header" data-position="fixed">
+        		<h1>America</h1>
+        		
+        	</div>
+        	
+        	<div data-role="content">
+        						
+        		<ul data-role="listview">	<!-- Imagen Texto y check pagina 1-->
+        			
+        			<img src="img/America.png" />
+        			<br />
+        				<p>América es el segundo continente más grande del planeta, después de Asia. Ocupa gran parte del hemisferio occidental de la Tierra. Se extiende desde el océano Glacial Ártico por el norte hasta el Cabo de Hornos por el sur, en la confluencia de los océanos Atlántico y Pacífico, los cuales a su vez delimitan al continente por el este y el oeste, respectivamente.
+
+                        Con una superficie de más de 42 978 000 km², es la segunda masa de tierra más grande del globo, cubriendo el 8,4 % de la superficie total del planeta y el 30,2 % de la tierra emergida, y además concentrando cerca del 12 % de la población humana.
+
+                        Debido a su gran tamaño y sus características geográficas, en algunas culturas América es dividida tradicionalmente en América del Norte, América Central, las Antillas y América del Sur.3 Algunos geógrafos consideran a América Central y las Antillas como una subregión dentro de América del Norte. Atendiendo a sus características culturales, se distinguen América Anglosajona y América Latina.
+
+                        América comenzó a tener un contacto masivo y significativo con el Viejo Mundo a partir de 1492 por Cristóbal Colón y de 1497 por Juan Caboto, aunque existen vestigios de asentamientos vikingos datados en el siglo XI, y que forman parte del patrimonio mundial de la Unesco.4</p>
+        				
+        			 <fieldset data-role="controlgroup" data-type="vertical">
+      					<legend>Paises:</legend>
+					      <input id="pais1" name="pais1" type="checkbox">
+					      	<label for="pais1">Estados Unidos</label>
+					      	
+					      <input id="pais2" name="pais2" type="checkbox">
+					      	<label for="pais2">Chile</label>
+					      
+					      <input id="pais3" name="pais3" type="checkbox">
+					      	<label for="pais3">Argentina</label>	    
+				    </fieldset>
+        			
+        				
+        			      			
+        		</ul>	
+        						
+        						
+        						
+        	</div>
+        	
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			      <ul>
+			        <li>
+			          <a href="Index.html" data-icon="back">Atras</a> <!-- Al menu principal-->
+			        </li>
+			        <li>
+			          <a  href="#PaisesAm" data-role="button" id="btn_ver_paises" data-icon="forward">Continuar</a> <!-- Continuamos a la pagina 2-->
+			        </li>
+			      </ul>
+				</div>
+			</div>        	
+        </div>
+        
+        <div data-role="page" id="PaisesAm">	<!-- Pagina 2-->
+        <div data-role="header" data-position="fixed">
+        		<h1>America</h1>
+        	</div>
+        	
+        	<div data-role="content" id="zona_paises1"></div>	<!-- Zonas para insertar los codigos-->
+        	<div data-role="content" id="zona_paises2"></div>		
+        	<div data-role="content" id="zona_paises3"></div>		
+        						
+        	
+        	
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			      <ul>
+			        <li>
+			          <a href="#pAmerica" data-icon="back">Atras</a> <!-- A la primera pagina -->
+			        </li>
+			        <li>
+			          
+			        </li>
+			      </ul>
+				</div>
+			</div>        	
+        </div>
+        
+    </body>
+</html>
