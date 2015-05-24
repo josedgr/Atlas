@@ -19,3 +19,25 @@
         text-align: center;
 
 }
+
+#pAmerica{
+	background: url(../img/americaImg.jpg);
+
+        text-align: center;
+        color: white;
+
+}
+
+#pAfrica{
+	background: url(../img/africaImg.jpg);
+
+        text-align: center;
+
+}
+
+#pOceania{
+	background: url(../img/oceaniaImg.jpg);
+
+        text-align: center;
+
+}
