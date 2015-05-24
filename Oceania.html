@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    	
+    	<meta charset="utf-8" />
+    	<meta name="viewport" content="width=device-width"/>
+    	<script src="js/index.js"></script>
+    	
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    </head>
+    
+    <body>
+        
+        <div data-role="page" id="pOceania">
+        <div data-role="header" data-position="fixed">
+        		<h1>Oceania</h1>
+        		
+        	</div>
+        	
+        	<div data-role="content">
+        						
+        		<ul data-role="listview">	<!-- Imagen Texto y check pagina 1-->
+        			
+        			<img src="img/Oceania.png" />
+        			<br />
+        				<p>Oceanía es un continente insular de la Tierra constituido por la plataforma continental de Australia, las islas de Nueva Guinea, Nueva Zelanda y los archipiélagos coralinos y volcánicos de Melanesia, Micronesia y Polinesia. Un sector de los expertos considera que Insulindia también forma parte de Oceanía.1 Todas estas islas están distribuidas por el océano Pacífico. Con una extensión de 9 008 458 km², se trata del continente más pequeño del planeta.
+
+                        En otros modelos continentales, por ejemplo en los de habla inglesa, se usa Australia (continente) en lugar de Oceanía, pero en este caso su definición no incluye las islas del Pacífico.</p>
+        				
+        			 <fieldset data-role="controlgroup" data-type="vertical">
+      					<legend>Paises:</legend>
+					      <input id="pais1" name="pais1" type="checkbox">
+					      	<label for="pais1">Australia</label>
+					      	
+					      <input id="pais2" name="pais2" type="checkbox">
+					      	<label for="pais2">Fiyi</label>
+					      
+					      <input id="pais3" name="pais3" type="checkbox">
+					      	<label for="pais3">Nueva Zelanda</label>	    
+				    </fieldset>
+        			
+        				
+        			      			
+        		</ul>	
+        						
+        						
+        						
+        	</div>
+        	
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			      <ul>
+			        <li>
+			          <a href="Index.html" data-icon="back">Atras</a> <!-- Al menu principal-->
+			        </li>
+			        <li>
+			          <a  href="#PaisesO" data-role="button" id="btn_ver_paises" data-icon="forward">Continuar</a> <!-- Continuamos a la pagina 2-->
+			        </li>
+			      </ul>
+				</div>
+			</div>        	
+        </div>
+        
+        <div data-role="page" id="PaisesE">	<!-- Pagina 2-->
+        <div data-role="header" data-position="fixed">
+        		<h1>Oceania</h1>
+        	</div>
+        	
+        	<div data-role="content" id="zona_paises1"></div>	<!-- Zonas para insertar los codigos-->
+        	<div data-role="content" id="zona_paises2"></div>		
+        	<div data-role="content" id="zona_paises3"></div>		
+        						
+        	
+        	
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			      <ul>
+			        <li>
+			          <a href="#pOceania" data-icon="back">Atras</a> <!-- A la primera pagina -->
+			        </li>
+			        <li>
+			          
+			        </li>
+			      </ul>
+				</div>
+			</div>        	
+        </div>
+        
+    </body>
+</html>
