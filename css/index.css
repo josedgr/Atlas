@@ -1,2 +1,21 @@
+#pagina1 {
+        background: url(../img/tierra.jpg);
 
- 
+        text-align: center;
+
+} 
+
+#pEuropa{
+	background: url(../img/europeImg.jpg);
+
+        text-align: center;
+        color: white;
+
+}
+
+#pAsia{
+	background: url(../img/asiaImg.jpg);
+
+        text-align: center;
+
+}
