@@ -1,5 +1,9 @@
 #pagina1 {
         background: url(../img/tierra.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
         text-align: center;
 
@@ -7,6 +11,10 @@
 
 #pEuropa{
 	background: url(../img/europeImg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
         text-align: center;
         color: white;
@@ -15,6 +23,10 @@
 
 #pAsia{
 	background: url(../img/asiaImg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
         text-align: center;
 
@@ -22,6 +34,10 @@
 
 #pAmerica{
 	background: url(../img/americaImg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
         text-align: center;
         color: white;
@@ -30,6 +46,10 @@
 
 #pAfrica{
 	background: url(../img/africaImg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
         text-align: center;
 
@@ -37,6 +57,10 @@
 
 #pOceania{
 	background: url(../img/oceaniaImg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
         text-align: center;
 
