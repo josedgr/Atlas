@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width"/>
+        <script src="js/index.js"></script>
+        
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    </head>
+    
+    <body>
+        
+        <div data-role="page" id="pAsia">
+        <div data-role="header" data-position="fixed">
+        		<h1>Asia</h1>
+        		
+        	</div>
+        	
+        	<div data-role="content">
+        						
+        		<ul data-role="listview">	<!-- Imagen Texto y check pagina 1-->
+        			
+        			<img src="img/Asia.png" />
+        			<br />
+        				<p>Asia o continente asiático es el continente más extenso y poblado de la Tierra que, con cerca de 44 millones de km², supone el 8,70% del total de la superficie terrestre y el 29,45 % de las tierras emergidas y, con 4 140 000 000 de habitantes, el 61 % de la población mundial. Se extiende sobre la mitad oriental del hemisferio Norte, desde el océano Glacial Ártico, al norte, hasta el océano Índico, al sur. Limita, al oeste, con los montes Urales, y al este, con el océano Pacífico.
+
+                        En la división convencional de continentes, de origen europeo, Asia y Europa aparecen como dos entidades diferentes por razones culturales e históricas. En términos geográficos, forman en realidad un único continente, llamado Eurasia. Además, África está unida a Eurasia por el canal de Suez por lo que también se puede considerar toda la extensión conjunta de Europa, Asia y África como un único supercontinente, ocasionalmente denominado Eurafrasia, o Afro-eurasia.</p>
+        				
+        			 <fieldset data-role="controlgroup" data-type="vertical">
+      					<legend>Paises:</legend>
+					      <input id="pais1" name="pais1" type="checkbox">
+					      	<label for="pais1">China</label>
+					      	
+					      <input id="pais2" name="pais2" type="checkbox">
+					      	<label for="pais2">Japon</label>
+					      
+					      <input id="pais3" name="pais3" type="checkbox">
+					      	<label for="pais3">Mongolia</label>	   
+				    </fieldset>
+        			
+        				
+        			      			
+        		</ul>	
+        						
+        						
+        						
+        	</div>
+        	
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			      <ul>
+			        <li>
+			          <a href="Index.html" data-icon="back">Atras</a> <!-- Al menu principal-->
+			        </li>
+			        <li>
+			          <a  href="#PaisesAs" data-role="button" id="btn_ver_paises" data-icon="forward">Continuar</a> <!-- Continuamos a la pagina 2-->
+			        </li>
+			      </ul>
+				</div>
+			</div>        	
+        </div>
+        
+        <div data-role="page" id="PaisesAs">	<!-- Pagina 2-->
+        <div data-role="header" data-position="fixed">
+        		<h1>Asia</h1>
+        	</div>
+        	
+        	<div data-role="content" id="zona_paises1"></div>	<!-- Zonas para insertar los codigos-->
+        	<div data-role="content" id="zona_paises2"></div>		
+        	<div data-role="content" id="zona_paises3"></div>		
+        						
+        	
+        	
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			      <ul>
+			        <li>
+			          <a href="#pAsia" data-icon="back">Atras</a> <!-- A la primera pagina -->
+			        </li>
+			        <li>
+			          
+			        </li>
+			      </ul>
+				</div>
+			</div>        	
+        </div>
+        
+    </body>
+</html>
