@@ -1,5 +1,6 @@
 
 function comenzar(){
+
 	var boton=document.getElementById("btn_ver_paises");
 	
 	boton.addEventListener("click",itemNuevo, false);
@@ -35,9 +36,6 @@ function itemNuevo(){ //comprobando los checked y escribiendo los paises
 		window.location.href ="#PaisesE";
 	
 }
-
-
-
 
 
 
