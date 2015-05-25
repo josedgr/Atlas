@@ -16,15 +16,16 @@ function itemNuevo(){ //comprobando los checked y escribiendo los paises
 
 	
 	if (clave1.checked)
-		zona_paises1.innerHTML="<div>Alemania</div>";
+		//zona_paises1.innerHTML="<div><h1>Alemania</h1></div>";
+		zona_paises1.innerHTML = '<div class="post"><h1 class="title" style="center">Alemania</h1><br/><table><tr><td><img src="img/alemania.jpg" id = "galeria1" /></td><td><img src="img/alemania2.png" id = "galeria2" /></td></tr></table></div>'; 
 	else
 		zona_paises1.innerHTML="";
 	if (clave2.checked)
-		zona_paises2.innerHTML="<div>España</div>";
+		zona_paises2.innerHTML='<div class="post"><h1 class="title" style="center">España</h1><br/><table><tr><td><img src="img/españa.png" id = "galeria1" /></td><td><img src="img/españa2.jpg" id = "galeria2" /></td></tr></table></div>';
 	else
 		zona_paises2.innerHTML="";
 	if (clave3.checked)
-		zona_paises3.innerHTML="<div>Italia</div>";
+		zona_paises3.innerHTML='<div class="post"><h1 class="title" style="center">Italia</h1><br/><table><tr><td><img src="img/italia.jpg" id = "galeria1" /></td><td><img src="img/italia2.jpg" id = "galeria2" /></td></tr></table></div>';
 	else
 		zona_paises3.innerHTML="";
 
