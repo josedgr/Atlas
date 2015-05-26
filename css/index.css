@@ -72,12 +72,12 @@ td img {
 }
 
 #Cretidos{
-	background: url(../img/textura_papel.jpg);
+	
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-
+		background-color:#CED8F6;
         text-align: center;
 }
 
@@ -85,7 +85,7 @@ p#uso_comercial{
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
-	border:2px inset #07fbe7;
+	border:3px solid #FE9A2E;
 	color:#08298A;
 }
 
@@ -94,6 +94,6 @@ p#nombres_creditos{
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
-	border:2px inset #07fbe7;
+	border:3px solid #FE9A2E;
 	color:#08298A;
 }
