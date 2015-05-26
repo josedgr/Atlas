@@ -28,7 +28,7 @@ function itemNuevo(){ //comprobando los checked y escribiendo los paises
 	else
 		zona_paises1.innerHTML="";
 	if (clave2.checked)
-		zona_paises2.innerHTML='<div class="post"><h1 class="title" style="center">España</h1><br/><table><tr><td><img src="img/españa.png" id = "galeria1" /></td><td><img src="img/españa2.jpg" id = "galeria2" /></td></tr></table></div>';
+		zona_paises2.innerHTML='<div class="post"><h1 class="title" style="center">España</h1><br/><table><tr><td><img src="img/espanha.png" id = "galeria1" /></td><td><img src="img/espanha2.jpg" id = "galeria2" /></td></tr></table></div>';
 	else
 		zona_paises2.innerHTML="";
 	if (clave3.checked)
