@@ -1,4 +1,8 @@
 
+function myFunction() {
+    location.reload();
+}
+
 function europajs(){ //comprobando los checked y escribiendo los paises
 	
 	
@@ -26,7 +30,7 @@ function europajs(){ //comprobando los checked y escribiendo los paises
 		alert("Seleccione algun pais para continuar"); //añadir lo que falta para no avanzar de pagina
 
 	if (clave1.checked || clave2.checked || clave3.checked)
-		window.location.href ="#PaisesE";
+		window.location.href ="Europa.html#PaisesE";
 	
 }
 
