@@ -46,5 +46,4 @@ function itemNuevo(){ //comprobando los checked y escribiendo los paises
 }
 
 
-
 window.addEventListener("load", comenzar, false);

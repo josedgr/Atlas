@@ -17,7 +17,7 @@ function itemNuevo(){ //comprobando los checked y escribiendo los paises
 	
 	if (clave1.checked)
 		//zona_paises1.innerHTML="<div><h1>Alemania</h1></div>";
-		zona_paises1.innerHTML = '<div class="post"><h1 class="title" style="center">Australia</h1><br/><table><tr><td><img src="img/australia.jpg" id = "galeria1" /></td><td><img src="img/australia2.jpg" id = "galeria2" /></td></tr></table></div>'; 
+		zona_paises1.innerHTML = '<div class="post"><h1 class="title" style="center">Australia</h1><br/><table><tr><td><img src="img/australia.jpeg" id = "galeria1" /></td><td><img src="img/australia2.jpg" id = "galeria2" /></td></tr></table></div>'; 
 	else
 		zona_paises1.innerHTML="";
 	if (clave2.checked)
@@ -31,7 +31,7 @@ function itemNuevo(){ //comprobando los checked y escribiendo los paises
 
 					
 	if (!clave1.checked && !clave2.checked && !clave3.checked) // si no esta ninguna seleccionada
-		alert("error"); //añadir lo que falta para no avanzar de pagina
+		alert("Seleccione algun pais para continuar"); //añadir lo que falta para no avanzar de pagina
 
 	if (clave1.checked || clave2.checked || clave3.checked)
 		window.location.href ="#PaisesO";

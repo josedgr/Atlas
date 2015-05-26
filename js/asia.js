@@ -31,7 +31,7 @@ function itemNuevo(){ //comprobando los checked y escribiendo los paises
 
 					
 	if (!clave1.checked && !clave2.checked && !clave3.checked) // si no esta ninguna seleccionada
-		alert("error"); //añadir lo que falta para no avanzar de pagina
+		alert("Seleccione algun pais para continuar"); //añadir lo que falta para no avanzar de pagina
 
 	if (clave1.checked || clave2.checked || clave3.checked)
 		window.location.href ="#PaisesAs";
