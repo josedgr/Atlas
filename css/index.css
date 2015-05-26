@@ -14,7 +14,17 @@ td img {
 
 } 
 
+#pEuropa{
+	background: url(../img/europeImg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
+        text-align: center;
+        color: white;
+
+}
 
 #pAsia{
 	background: url(../img/asiaImg.jpg);
