@@ -2,10 +2,17 @@
 function comenzar(){
 
 	var boton=document.getElementById("btn_ver_paises");
-	
 	boton.addEventListener("click",itemNuevo, false);
 	
+	var boton=document.getElementById("btn_salir");
+	boton.addEventListener("click",onBackKeyDown, false);
+	
 	}
+	
+function onBackKeyDown() {
+    // Exit the app!
+    navigator.app.exitApp();
+}
 
 function itemNuevo(){ //comprobando los checked y escribiendo los paises
 	
@@ -31,7 +38,7 @@ function itemNuevo(){ //comprobando los checked y escribiendo los paises
 
 					
 	if (!clave1.checked && !clave2.checked && !clave3.checked) // si no esta ninguna seleccionada
-		alert("error"); //añadir lo que falta para no avanzar de pagina
+		alert("Seleccione algun pais para continuar"); //añadir lo que falta para no avanzar de pagina
 
 	if (clave1.checked || clave2.checked || clave3.checked)
 		window.location.href ="#PaisesE";
