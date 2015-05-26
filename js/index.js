@@ -4,15 +4,10 @@ function comenzar(){
 	var boton=document.getElementById("btn_ver_paises");
 	boton.addEventListener("click",itemNuevo, false);
 	
-	var boton=document.getElementById("btn_salir");
-	boton.addEventListener("click",onBackKeyDown, false);
-	
+
 	}
 	
-function onBackKeyDown() {
-    // Exit the app!
-    navigator.app.exitApp();
-}
+
 
 function itemNuevo(){ //comprobando los checked y escribiendo los paises
 	
